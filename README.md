@@ -2,6 +2,8 @@
 
 Казуальная головоломка: вращай трубы и собирай непрерывный поток.
 
+**[Играть в браузере →](https://maxdemaw.github.io/PipePuzzles/)**
+
 <p align="center">
   <img src="docs/gameplay.png" alt="Геймплей PipePuzzles" width="320" />
 </p>
@@ -21,7 +23,3 @@
 ## Стек
 
 Unity 6 · C# · Zenject · UniTask · DOTween · LeanPool
-
-## Лицензия
-
-[MIT](LICENSE)
