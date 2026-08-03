@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c8d9e0f1a24355b6c7d8e9f0a1b2c3, type: 3}
+  m_Name: PipePrefabCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::Pipes.PipePrefabCatalog
+  _entries:
+  - Type: 0
+    Prefab: {fileID: 11001, guid: 396a5221aa8c49599274b9d06d3b7f80, type: 3}
+  - Type: 1
+    Prefab: {fileID: 12001, guid: 5116e8b2531a4f1cb50b6c3ffd827a79, type: 3}
+  - Type: 2
+    Prefab: {fileID: 13001, guid: 97a95c6256a7479b84ef79cbada6c783, type: 3}
+  - Type: 3
+    Prefab: {fileID: 14001, guid: a9b556ea406c45b7967f7d5f22993674, type: 3}
