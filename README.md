@@ -3,7 +3,7 @@
 Казуальная головоломка: вращай трубы и собирай непрерывный поток.
 
 <p align="center">
-  <img src="Docs/gameplay.png" alt="Геймплей PipePuzzles" width="320" />
+  <img src="docs/gameplay.png" alt="Геймплей PipePuzzles" width="320" />
 </p>
 
 ## Цель

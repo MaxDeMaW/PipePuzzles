@@ -18,8 +18,6 @@ Logs/
 # Keep GitHub Pages WebGL output tracked
 !/docs/
 !/docs/**
-!/Docs/
-!/Docs/**
 
 # ======================================================= #
 # Visual Studio / MonoDevelop / Rider / Consulo generated #
