@@ -3,18 +3,23 @@
 # =============== #
 [Tt]emp/
 [Oo]bj/
-[Bb]uild
-AndroidBuild
-IosBuild
+/[Bb]uild/
+/[Bb]uilds/
+AndroidBuild/
+IosBuild/
 /[Ll]ibrary/
 /[Rr]ecordings/
 /Assets/Resources/SharedAssets/EditorGameCenter?*.asset*
 /Assets/Plugins/Editor/JetBrains/
-/AndroidBuild/
-/[Bb]uilds/
 sysinfo.txt
 *.stackdump
 Logs/
+
+# Keep GitHub Pages WebGL output tracked
+!/docs/
+!/docs/**
+!/Docs/
+!/Docs/**
 
 # ======================================================= #
 # Visual Studio / MonoDevelop / Rider / Consulo generated #
@@ -23,7 +28,7 @@ Logs/
 .vs/
 /*.userprefs
 /*.csproj
-/*.pidb/*.pidb
+/*.pidb
 /*.suo
 /*.sln*
 /*.user
@@ -48,4 +53,3 @@ Logs/
 ehthumbs.db
 [Tt]humbs.db
 [Dd]esktop.ini
-view raw

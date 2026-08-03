@@ -32,6 +32,37 @@
 - C#
 - Zenject, UniTask, DOTween, LeanPool
 
+## Web-версия (GitHub Pages)
+
+Готовый WebGL-билд лежит в папке [`docs/`](docs/) — её можно публиковать через GitHub Pages (**Settings → Pages → Deploy from a branch → `/docs`**).
+
+### Локальная проверка
+
+```bash
+./scripts/serve-webgl.sh
+```
+
+Откройте http://127.0.0.1:8080/ в браузере (другой порт: `./scripts/serve-webgl.sh 9090`).
+
+> Не открывайте `docs/index.html` напрямую через `file://` — WebGL так не запустится.
+
+### Пересборка
+
+В Unity: **Build → WebGL for GitHub Pages**, либо из терминала:
+
+```bash
+/Applications/Unity/Hub/Editor/6000.3.21f1/Unity.app/Contents/MacOS/Unity \
+  -quit -batchmode -nographics \
+  -projectPath "$(pwd)" \
+  -buildTarget WebGL \
+  -executeMethod Pipes.Editor.WebGLPagesBuilder.BuildFromCommandLine \
+  -logFile Logs/webgl-build.log
+```
+
+После пуша включите Pages на ветку `main`, папка `/docs`. Игра будет по адресу:
+
+`https://MaxDeMaW.github.io/PipePuzzles/`
+
 ## Лицензия
 
 См. [LICENSE](LICENSE).
